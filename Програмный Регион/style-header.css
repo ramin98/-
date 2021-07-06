@@ -1,0 +1,303 @@
+body{
+   margin: 0;
+   position: absolute;
+   width: 100%;
+}
+
+header{
+   display: flex;
+   flex-direction: column;
+   height: 600px;
+   background: url(img/header-img.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+@font-face {
+  font-family: CirceLight; 
+  src: url(fonts/CirceLight.otf); 
+}
+
+@font-face {
+  font-family: CirceBold; 
+  src: url(fonts/CirceBold.otf); 
+}
+
+@font-face {
+  font-family: CirceRegular; 
+  src: url(fonts/CirceRegular.otf); 
+}
+
+@font-face {
+  font-family: PFHandbookPro-Regular; 
+  src: url(fonts/PFHandbookPro-Regular.ttf); 
+}
+
+
+.header-content{
+	display: flex;
+	flex-direction: column;
+	margin-left: 150px;
+	margin-top: 65px;
+}
+
+.logo-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo-img{
+
+}
+
+.logo-text{
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+}
+
+.logo-text-first{
+  font-family: PFHandbookPro-Regular;
+  font-size: 29px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.logo-text-second{
+  font-family: CirceRegular;
+  font-size: 11.5px;
+  letter-spacing: 3.8px;
+  text-align: left;
+  color: #d4d4d4;
+  text-transform:uppercase;
+}
+
+.header-main-text-div{
+  margin-top: 90px;
+}
+
+.header-main-text-first{
+  font-family: CirceBold;
+  font-size: 54px;
+  color: #ffffff;
+  text-transform:uppercase;
+  margin: 0px;
+}
+
+.header-main-text-second{
+  font-family: CirceBold;
+  font-size: 54px;
+  color: #ffffff;
+  text-transform:uppercase;
+  margin: 0px;
+}
+
+.header-note{
+  font-family: CirceRegular;
+  font-size: 24px;
+  text-align: left;
+  color: #ffffff;
+}
+
+
+.header-button{
+  width: 330px;
+  height: 90px;
+  font-family: CirceBold;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #ffffff;
+  text-transform:uppercase;
+  border-radius: 10px;
+  background-image: linear-gradient(to top, #12bc82, #bfdf2c);
+  text-align: center;
+  border: none;
+  outline: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.header-button:hover{
+  background-color: #bfdf2c;
+  box-shadow: #bfdf2c 0px 0px 3px 3px;
+}
+  
+
+@media only screen and (max-width: 800px) {
+  header{
+    display: flex;
+    flex-direction: column;
+    background: url(img/header-small-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+  .header-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 25px;
+    
+  }
+  .header-main-text-div{
+    margin-top: 20px;
+    
+  }
+
+  .header-main-text-first{
+    font-family: CirceBold;
+    font-size: 30px;
+    color: #ffffff;
+    text-transform:uppercase;
+    margin: 0px;
+  }
+  
+  .header-main-text-second{
+    font-family: CirceBold;
+    font-size: 30px;
+    color: #ffffff;
+    text-transform:uppercase;
+    margin: 0px;
+  }
+
+  .header-button{
+    width: 330px;
+    height: 90px;
+    font-family: CirceBold;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #ffffff;
+    text-transform:uppercase;
+    border-radius: 10px;
+    background-image: linear-gradient(to top, #12bc82, #bfdf2c);
+    text-align: center;
+    margin-top: 180px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  header{
+    display: flex;
+    flex-direction: column;
+    background: url(img/header-small-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+  .header-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 25px;
+    
+  }
+  .header-main-text-div{
+    margin-top: 20px;
+    
+  }
+
+  .header-main-text-first{
+    font-family: CirceBold;
+    font-size: 30px;
+    color: #ffffff;
+    text-transform:uppercase;
+    margin: 0px;
+  }
+  
+  .header-main-text-second{
+    font-family: CirceBold;
+    font-size: 30px;
+    color: #ffffff;
+    text-transform:uppercase;
+    margin: 0px;
+  }
+
+.header-note{
+
+}
+
+.header-button-div{
+  
+}
+
+  .header-button{
+    width: 330px;
+    height: 90px;
+    font-family: CirceBold;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #ffffff;
+    text-transform:uppercase;
+    border-radius: 10px;
+    background-image: linear-gradient(to top, #12bc82, #bfdf2c);
+    text-align: center;
+    margin-top: 180px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  header{
+    display: flex;
+    flex-direction: column;
+    background: url(img/header-small-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+  .header-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 25px;
+    
+  }
+  .header-main-text-div{
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .header-main-text-first{
+    font-family: CirceBold;
+    font-size: 30px;
+    color: #ffffff;
+    text-transform:uppercase;
+    margin: 0px;
+  }
+  
+  .header-main-text-second{
+    font-family: CirceBold;
+    font-size: 30px;
+    color: #ffffff;
+    text-transform:uppercase;
+    margin: 0px;
+  }
+
+.header-button-div{
+  width: 100%;
+  text-align: center;
+}
+
+  .header-button{
+    width: 80%;
+    height: 90px;
+    font-family: CirceBold;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #ffffff;
+    text-transform:uppercase;
+    border-radius: 10px;
+    background-image: linear-gradient(to top, #12bc82, #bfdf2c);
+    text-align: center;
+    margin-top: 180px;
+  }
+
+  .header-note{
+    font-family: CirceRegular;
+    font-size: 20px;
+    text-align: left;
+    color: #ffffff;
+    text-align: center;
+  }
+}
+

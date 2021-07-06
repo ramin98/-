@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style-header.css">
+	<link rel="stylesheet" type="text/css" href="style-about.css">
+	<link rel="stylesheet" type="text/css" href="style-comment.css">
+	<link rel="stylesheet" type="text/css" href="style-footer.css">
+	<script
+     src="https://code.jquery.com/jquery-3.6.0.js"
+     integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+     crossorigin="anonymous"></script>
+</head>
+<body>
+<header class="header">
+	<div class="header-content">
+		  <div class="logo-container">
+		  	<img class="logo-img" src="img/logo.png">
+		  	<div class="logo-text">
+		  		<span class="logo-text-first">TastyCookery</span>
+		  		<span class="logo-text-second">Cook for real</span>
+		  	</div>
+		  </div>
+		  <div class="header-main-text-div">
+            <p class="header-main-text-first">Домашние</p>
+            <p class="header-main-text-second">Простые Рецепты</p>
+		  </div>		  
+		  <p class="header-note">Собирайте рецепты в recipe box</p>
+		  <div class="header-button-div">
+			<button class="header-button">Присоединиться
+				к сообществу</button>
+		  </div>
+	</div>
+</header>
+<main class="main">
+	<nav class="nav">
+		<div class="nav-items">
+			<img class="nav-items-img" src="img/nav-1.png" alt="">
+			<spam class="nav-items-text">Простые домашние
+				рецепты</span>
+		</div>
+		<div class="nav-items">
+			<img class="nav-items-img" src="img/nav-2.png" alt="">
+			<span class="nav-items-text">Статьи о готовке</span>
+		</div>
+		<div class="nav-items">
+			<img class="nav-items-img" src="img/nav-3.png" alt="">
+			<span class="nav-items-text">Бесплатная книга рецептов
+			всем подписчикам</span>
+		</div>
+		<div class="nav-items">
+			<img class="nav-items-img" src="img/nav-4.png" alt="">
+			<span class="nav-items-text">Собирайте рецепты
+				в recipe box</span>
+		</div>
+		<div class="nav-items">
+			<img class="nav-items-img" src="img/nav-5.png" alt="">
+			<span class="nav-items-text">Печать рецептов</span>
+		</div>
+	</nav>
+	<nav class="slide-nav">
+		<div class="slide-nav-items">
+			<img class="nav-items-img" src="img/nav-1.png" alt="">
+			<spam class="nav-items-text">Простые домашние
+				рецепты</span>
+		</div>
+		<div class="slide-nav-items display-none">
+			<img class="nav-items-img" src="img/nav-2.png" alt="">
+			<span class="nav-items-text">Статьи о готовке</span>
+		</div>
+		<div class="slide-nav-items display-none">
+			<img class="nav-items-img" src="img/nav-3.png" alt="">
+			<span class="nav-items-text">Бесплатная книга рецептов
+			всем подписчикам</span>
+		</div>
+		<div class="slide-nav-items display-none">
+			<img class="nav-items-img" src="img/nav-4.png" alt="">
+			<span class="nav-items-text">Собирайте рецепты
+				в recipe box</span>
+		</div>
+		<div class="slide-nav-items display-none">
+			<img class="nav-items-img" src="img/nav-5.png" alt="">
+			<span class="nav-items-text">Печать рецептов</span>
+		</div>
+	</nav>
+	<div class="slider-dots-nav slider-dots">
+		<span class="slider-dots_item-nav" onclick="currentSlide_nav(1)"></span> 
+		<span class="slider-dots_item-nav" onclick="currentSlide_nav(2)"></span> 
+		<span class="slider-dots_item-nav" onclick="currentSlide_nav(3)"></span>
+		<span class="slider-dots_item-nav" onclick="currentSlide_nav(4)"></span> 
+		<span class="slider-dots_item-nav" onclick="currentSlide_nav(5)"></span> 
+	</div>
+	<p class="cool-with-us">Почему круто быть с нами:</p>
+	<div  class="advantages">
+		<div class="advantages-div">
+			<img class="advantages-img" src="img/advantages-1.png" alt="">
+            <span class="advantages-text">Получать лучшие рецепты
+				по разным категориям</span>
+		</div>
+		<div class="advantages-div">
+			<img class="advantages-img" src="img/advantages-2.png" alt="">
+            <span class="advantages-text">Готовить без лишних усилий
+				и делать из каждого дня
+				не рутинный</span>
+		</div>
+		<div class="advantages-div">
+			<img class="advantages-img" src="img/advantages-3.png" alt="">
+            <span class="advantages-text">Довольные
+				члены семьи</span>
+		</div>
+	</div>
+	<div  class="advantages-slide">
+		<div class="advantages-div-slide">
+			<img class="advantages-img" src="img/advantages-1.png" alt="">
+            <span class="advantages-text">Получать лучшие рецепты
+				по разным категориям</span>
+		</div>
+		<div class="advantages-div-slide display-none">
+			<img class="advantages-img" src="img/advantages-2.png" alt="">
+            <span class="advantages-text">Готовить без лишних усилий
+				и делать из каждого дня
+				не рутинный</span>
+		</div>
+		<div class="advantages-div-slide display-none">
+			<img class="advantages-img" src="img/advantages-3.png" alt="">
+            <span class="advantages-text">Довольные
+				члены семьи</span>
+		</div>
+	</div>
+	<div class="slider-dots-advantages slider-dots">
+		<span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+		<span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+		<span class="slider-dots_item" onclick="currentSlide(3)"></span> 
+	</div>
+	<div class="get-follow">
+		<p class="get-follow-text">Удобно получать на емейл уникальные проверенные рецепты,
+			которые дружная команда Tastycookery попробовала сама и рекомендует</p>
+        <button class="get-follow-button">
+			<p class="get-follow-button-text-first">Стать членом семьи Tastycookery</p>
+            <p class="get-follow-button-text-second">Бесплатно</p>
+		</button>
+	</div>
+	<p class="comment-main-text">Отзывы довольных пользователей</p>
+	 <div class="comments-container">
+		 <div class="comments-items">
+			 <div class="comments-text-div">
+				 <span class="comments-text">
+					После того, как стал участником проекта Tastycookery получает много 
+					простых рецептов, о которых раньше не задумывался, стал готовить некоторые,
+					семья рада, стали больше разговаривать во время ужина и хвалить кулинарные 
+					таланты Человека1.
+				 </span>
+			 </div>
+			 <div class="commenter-div">
+				 <img class="commenter-img" src="img/rate-1.png" alt="">
+                 <div class="commenter-age-name">
+					 <span class="commenter-name">Дейнерис</span>
+					 <span class="commenter-age">56 лет</span>
+				 </div>
+			 </div>
+		 </div>      
+		<div class="comments-items">
+			<div class="comments-text-div">
+				<span class="comments-text">
+					Рад, что благодаря простым рецептам может наслаждаться 
+					изысканными блюдами, тратя на приготовление 20 мин в день
+				</span>
+			</div>
+			<div class="commenter-div">
+				<img class="commenter-img" src="img/rate-2.png" alt="">
+				<div class="commenter-age-name">
+					<span class="commenter-name">Тайвин</span>
+					<span class="commenter-age">43 года</span>
+				</div>
+			</div>
+		</div>      
+		<div class="comments-items">
+			<div class="comments-text-div">
+				<span class="comments-text">
+					Довольна, что благодаря рецептам с TC может на работу брать полезные обеды, 
+					что полностью отказалась от офисной неполезной еды и за 2 месяца похудела
+                    на 3 кг. И очень рекомендует всем использовать рецепты с сайта
+				</span>
+			</div>
+			<div class="commenter-div">
+				<img class="commenter-img" src="img/rate-3.png" alt="">
+				<div class="commenter-age-name">
+					<span class="commenter-name">Серсея</span>
+					<span class="commenter-age">56 лет</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="comments-container-slide">
+		<div class="comments-items-slide">
+			<div class="comments-text-div">
+				<span class="comments-text">
+				   После того, как стал участником проекта Tastycookery получает много 
+				   простых рецептов, о которых раньше не задумывался, стал готовить некоторые,
+				   семья рада, стали больше разговаривать во время ужина и хвалить кулинарные 
+				   таланты Человека1.
+				</span>
+			</div>
+			<div class="commenter-div">
+				<img class="commenter-img" src="img/rate-1.png" alt="">
+				<div class="commenter-age-name">
+					<span class="commenter-name">Дейнерис</span>
+					<span class="commenter-age">56 лет</span>
+				</div>
+			</div>
+		</div>      
+	   <div class="comments-items-slide">
+		   <div class="comments-text-div">
+			   <span class="comments-text">
+				   Рад, что благодаря простым рецептам может наслаждаться 
+				   изысканными блюдами, тратя на приготовление 20 мин в день
+			   </span>
+		   </div>
+		   <div class="commenter-div">
+			   <img class="commenter-img" src="img/rate-2.png" alt="">
+			   <div class="commenter-age-name">
+				   <span class="commenter-name">Тайвин</span>
+				   <span class="commenter-age">43 года</span>
+			   </div>
+		   </div>
+	   </div>      
+	   <div class="comments-items-slide">
+		   <div class="comments-text-div">
+			   <span class="comments-text">
+				   Довольна, что благодаря рецептам с TC может на работу брать полезные обеды, 
+				   что полностью отказалась от офисной неполезной еды и за 2 месяца похудела
+				   на 3 кг. И очень рекомендует всем использовать рецепты с сайта
+			   </span>
+		   </div>
+		   <div class="commenter-div">
+			   <img class="commenter-img" src="img/rate-3.png" alt="">
+			   <div class="commenter-age-name">
+				   <span class="commenter-name">Серсея</span>
+				   <span class="commenter-age">56 лет</span>
+			   </div>
+		   </div>
+	   </div>
+   </div>
+	<div class="slider-dots-com slider-dots">
+		<span class="slider-dots_item-com" onclick="currentSlide_com(1)"></span> 
+		<span class="slider-dots_item-com" onclick="currentSlide_com(2)"></span> 
+		<span class="slider-dots_item-com" onclick="currentSlide_com(3)"></span> 
+	</div>
+</main>
+<footer class="footer">
+	<div class="footer-container">
+		<p class="footer-main-text">	
+			Sign up to receive daily manually selected recipes, delicious weekly articles,
+            3-piece sets of slow cooker, vegetarian,
+            and lunch ideas, plus Quick&Easy recipes and Nutrition Value flashcards via email.		
+		</p>
+		<div class="footer-sign-up-container">
+			<form class="sign-up-form" action=""><input class="sign-up-input" type="text" placeholder="Enter your email"></form>
+			<button class="sign-up-buton">Sign up</button>
+			<p class="sign-up-pricacy">By signing up I agree to the terms of the Privacy Policy</p>
+		</div>
+	</div>
+	<p class="footer-date">© 2014–2018 TastyCookery.com</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

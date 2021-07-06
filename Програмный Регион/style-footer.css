@@ -1,0 +1,173 @@
+@font-face {
+    font-family: CirceLight; 
+    src: url(fonts/CirceLight.otf); 
+  }
+  
+@font-face {
+    font-family: CirceBold; 
+    src: url(fonts/CirceBold.otf); 
+  }
+  
+@font-face {
+    font-family: CirceRegular; 
+    src: url(fonts/CirceRegular.otf); 
+  }
+
+.footer{
+    background: url(img/footer-img.png);
+    background-repeat: no-repeat;
+    margin-top: 60px;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-size: cover;
+  }
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-top: 150px;
+    justify-content: space-evenly;
+}
+
+.footer-main-text{
+    font-family: CirceRegular;
+    font-size: 24px;
+    text-align: left;
+    color: #ffffff;
+    width: 435px;
+}
+
+.footer-sign-up-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-form{
+    
+}
+
+.sign-up-input{
+    font-family: CirceRegular;
+    font-size: 16px;
+    color: #909090;
+    width: 370px;
+    height: 60px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    transition-duration: 0.4s;
+    
+}
+
+.sign-up-input:hover{
+    background-color: #eaf9a6;
+    box-shadow: #eaf9a6 0px 0px 1px 3px;
+}
+
+.sign-up-buton{
+    font-family: CirceBold;
+    font-size: 24px;
+    color: #ffffff;
+    text-transform:uppercase;
+    height: 80px; 
+    border-radius: 10px;
+    background-image: linear-gradient(to top, #12bc82, #bfdf2c);
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.sign-up-buton:hover{
+    background-color: #bfdf2c;
+    box-shadow: #bfdf2c 0px 0px 3px 3px;
+}
+
+.sign-up-pricacy{
+    font-family: CirceRegular;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.footer-date{ 
+    font-family: Circe;
+    font-size: 10px;
+    color: #ffffff;
+    width: 100%;
+    display: flex;
+    justify-content: center;  
+}
+
+@media only screen and (max-width: 850px) {
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        justify-content: space-evenly;
+    }
+
+    
+  }
+
+  @media only screen and (max-width: 450px) {
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        justify-content: space-evenly;
+    }
+    
+    .footer-main-text{
+        font-family: CirceRegular;
+        font-size: 20px;
+        text-align: left;
+        color: #ffffff;
+        width: 80%;
+    }
+    
+    .footer-sign-up-container{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    
+    .sign-up-form{
+        width: 100%;
+    }
+    
+    .sign-up-input{
+        font-family: CirceRegular;
+        font-size: 16px;
+        color: #909090;
+        width: 100%;
+        height: 60px;
+        background-color: #ffffff;
+        border-radius: 10px;
+    }
+    
+    .sign-up-buton{
+        font-family: CirceBold;
+        font-size: 24px;
+        color: #ffffff;
+        text-transform:uppercase;
+        width: 100%;
+        height: 80px; 
+        border-radius: 10px;
+        background-image: linear-gradient(to top, #12bc82, #bfdf2c);
+        margin-top: 30px;
+    }
+    
+    .sign-up-pricacy{
+        font-family: CirceRegular;
+        font-size: 14px;
+        color: #ffffff;
+    
+  }
+}

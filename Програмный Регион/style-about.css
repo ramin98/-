@@ -1,0 +1,366 @@
+@font-face {
+    font-family: CirceLight; 
+    src: url(fonts/CirceLight.otf); 
+  }
+  
+@font-face {
+    font-family: CirceBold; 
+    src: url(fonts/CirceBold.otf); 
+  }
+  
+@font-face {
+    font-family: CirceRegular; 
+    src: url(fonts/CirceRegular.otf); 
+  }
+
+@media only screen and (max-width: 500px) {
+  .nav{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+  }
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    justify-content: space-evenly;
+}
+
+.nav-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 190px;
+}
+
+.slide-nav{
+  display: none;
+}
+
+.nav-items-img{
+
+}
+
+.nav-items-text{
+  font-family: CirceRegular;
+  font-size: 12px;
+  text-align: center;
+  color: #242424;
+  text-transform:uppercase;
+  margin-top: 15px;
+}
+
+.cool-with-us{
+  font-family: CirceBold;
+  font-size: 40px;
+  text-align: center;
+  color: #242424;
+  width: 100%;
+  text-transform:uppercase;
+}
+
+.advantages{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.advantages-div{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  align-items: center;
+  padding: 0px;
+}
+
+.advantages-img{
+
+}
+
+.advantages-text{
+  font-family: CirceRegular;
+  font-size: 20px;
+  line-height: 1.1;
+  text-align: center;
+  color: #242424;
+  margin-top: 20px;
+  display: flex;
+}
+
+.active,
+.slider-dots_item:hover {
+    background-color: #aaa;
+}
+
+.active,
+.slider-dots_item-comment:hover {
+    background-color: #aaa;
+}
+
+.display-none{
+  display: none;
+}
+
+.slider-dots-nav {
+  text-align: center;
+  margin-top:30px;
+}
+
+.slider-dots {
+  text-align: center;
+  margin-top:30px;
+}
+
+.slider-dots_item{
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 0 2px;
+  background-color: #ddd;
+  border-radius: 50%;
+  display: inline-flex;
+  transition: 0.6s ease;
+}
+
+.slider-dots_item-com{
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 0 2px;
+  background-color: #ddd;
+  border-radius: 50%;
+  display: inline-flex;
+  transition: 0.6s ease;
+}
+.slider-dots_item-nav{
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 0 2px;
+  background-color: #ddd;
+  border-radius: 50%;
+  display: inline-flex;
+  transition: 0.6s ease;
+}
+
+.active,
+.slider-dots_item:hover {
+    background-color: rgb(255, 197, 7);
+}
+
+.get-follow{
+   background: url(img/main-img.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 300px;
+   width: 100%;
+   margin-top: 60px;
+}
+
+.get-follow-text{
+  width: 60%;
+  font-family: CirceRegular;
+  font-size: 26px;
+  line-height: 1.23;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 60px;
+}
+
+.get-follow-button{
+    width: 400px;
+    height: 90px;
+    border-radius: 10px;
+    background-image: linear-gradient(to top, #12bc82, #bfdf2c);
+    border: none;
+    outline: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+.get-follow-button:hover{
+  background-color: #bfdf2c;
+  box-shadow: #bfdf2c 0px 0px 3px 3px;
+  cursor: pointer;
+}
+
+.get-follow-button-text-first{
+    font-family: CirceLight;
+    font-size: 22px;
+    line-height: 1.18;
+    text-align: center;
+    color: #ffffff;
+    margin: 0px;
+}
+
+.get-follow-button-text-second{
+    font-family: CirceBold;
+    font-size: 22px;
+    line-height: 1.18;
+    text-align: center;
+    color: #ffffff;
+    text-transform:uppercase;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+.slider-dots-nav{
+  display: none;
+}
+
+.slider-dots-advantages{
+  display: none;
+}
+
+
+.advantages-slide{
+  display: none;
+}
+
+@media only screen and (max-width: 1100px){
+
+.advantages-div-slide{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  align-items: center;
+  padding: 0px;
+}
+
+.slider-dots-advantages{
+  display: flex;
+  justify-content: center;
+}
+
+.display-none{
+  display: none;
+}
+
+.advantages-slide{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.advantages{
+  display: none;
+}
+
+}
+
+@media only screen and (max-width: 550px){
+.slide-nav{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    justify-content: space-evenly;
+}
+
+.slider-dots-nav{
+  display: flex;
+  justify-content: center;
+}
+
+.nav{
+  display: none;
+}
+
+.slide-nav-items{
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 190px;
+}
+.display-none{
+  display: none;
+}
+}
+
+@media only screen and (max-width: 980px) {
+  .get-follow-text{
+    width: 80%;
+    font-family: CirceRegular;
+    font-size: 26px;
+    line-height: 1.23;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .get-follow-button{
+    width: 70%;
+    height: 90px;
+    border-radius: 10px;
+    background-image: linear-gradient(to top, #12bc82, #bfdf2c);
+  }
+
+.advantages-img{
+  width: 200px;
+  height: 200px;
+}
+
+  .get-follow-text{
+    width: 60%;
+    font-family: CirceRegular;
+    font-size: 18px;
+    line-height: 1.23;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .get-follow-button{
+    width: 300px;
+    height: 90px;
+    border-radius: 10px;
+    background-image: linear-gradient(to top, #12bc82, #bfdf2c);
+  }
+
+  .get-follow-text{
+    width: 60%;
+    font-family: CirceRegular;
+    font-size: 18px;
+    line-height: 1.23;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 30px;
+  }
+
+  .get-follow-button-text-first{
+    font-family: CirceLight;
+    font-size: 22px;
+    line-height: 1.18;
+    text-align: center;
+    color: #ffffff;
+    margin: 0px;
+}
+
+.get-follow-button-text-second{
+    font-family: CirceBold;
+    font-size: 22px;
+    line-height: 1.18;
+    text-align: center;
+    color: #ffffff;
+    text-transform:uppercase;
+    margin: 0px;
+    margin-top: 4px;
+}
+}

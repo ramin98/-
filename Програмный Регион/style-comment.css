@@ -1,0 +1,134 @@
+@font-face {
+    font-family: CirceLight; 
+    src: url(fonts/CirceLight.otf); 
+  }
+  
+@font-face {
+    font-family: CirceBold; 
+    src: url(fonts/CirceBold.otf); 
+  }
+  
+@font-face {
+    font-family: CirceRegular; 
+    src: url(fonts/CirceRegular.otf); 
+  }
+
+.comment-main-text{
+    font-family: CirceBold;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    color: #242424;
+    width: 100%;
+  }
+
+.comments-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.comments-items{
+    display: flex;
+    flex-direction: column;
+}
+
+.comments-text-div{
+    position: relative;
+	width: 250px;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 20px;
+    box-shadow: 0px 10px 10px 0 rgba(0, 0, 0, 0.2);
+    border: solid 1px #dcdcdc;
+    padding: 10px;
+}
+
+.comments-text-div::after{
+    content: ' '; 
+	position: absolute; 
+	width: 0; 
+	height: 0; 
+	left: 38px; 
+	border: 15px solid; 
+	border-color: #fff transparent transparent #fff;
+    margin-top: 15px;
+}
+
+
+.comments-text{
+  font-family: CirceRegular;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: left;
+  color: #242424;
+}
+
+.commenter-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.commenter-img{
+
+}
+
+.commenter-age-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.commenter-name{
+  font-family: CirceBold;
+  font-size: 20px;
+  color: #242424;
+  text-transform:uppercase;
+}
+
+.commenter-age{
+  font-family: Circe;
+  font-size: 12px;
+  color: #909090;
+}
+
+.comments-container-slide{
+  display: none;
+}
+
+.slider-dots-com{
+  display: none;
+}
+
+@media only screen and (max-width: 1100px){
+  .comments-container-slide{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+.dispaly-none{
+  display: none;
+}
+
+.comments-items-slide{
+  display: flex;
+  flex-direction: column;
+}
+
+.comments-container{
+  display: none;
+}
+
+.slider-dots-com{
+  display: flex;
+  justify-content: center;
+}
+
+}
